@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections Page with Cards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container" style="display: flex; justify-content: space-between;">
+      <div style="display: flex; justify-content: center;">
+        <button class="first">Company</button>
+      <div style="display: flex; gap: 10px;">
+      <button class="Second">Collections</button>
+      <button class="third">Menu</button>
+      <button class="forth">Events</button>
+      </div>
+      </div>
+      <button class="fifth">Contact</button>
+    </div>
+  </nav>
+
+  <!-- Main layout -->
+  <div class="main">
+    <!-- First Big Card -->
+    <div class="c1 first-card">
+      <div class="label">LOREMIPSUM</div>
+      <div class="first-card-title">Lorem Ipsum Heading</div>
+      <img style="height: 75%;" src="https://images.unsplash.com/photo-1719339837856-bcff37200a01?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D" alt="Large Painting">
+      <div class="card-footer">
+        <span>Get Started</span>
+        <span>→</span>
+      </div>
+    </div>
+
+    <!-- Right Column with Smaller Cards -->
+    <div class="small-cards">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-texts">
+            <small>LOREMIPSUM</small>
+            <h3>Lorem Ipsum Heading</h3>
+            <p>Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text</p>
+          </div>
+          <img src="data:image/jpeg;base64,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" alt="Art">
+        </div>
+        <div class="card-footer">
+          <span>Get Started</span>
+          <span>→</span>
+        </div>
+      </div>
+
+      <div class="below" style="height: 50%;">
+        <div class="card" style="max-width: 370px; height: 290px;">
+        <div class="card-content">
+          <div class="card-texts">
+          <img src="./images/image2.png" alt="Portrait" style="width: 100%;">
+            <h3>Portrait</h3>
+            <p>Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Get Started</span>
+          <span>→</span>
+        </div>
+      </div>
+
+      <div class="card" style="max-width: 370px; height: 290px;">
+            <img src="./images/image1.png" alt="" style="border-radius: 50%; width: 60px; height: 60px; position: absolute; right: 40px;">
+
+        <div class="card-content">
+          <div class="card-texts">
+            <small>LOREMIPSUM</small>
+            <h3>Landscape</h3>
+            <p>Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text Lorem Ipsum Text</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Get Started</span>
+          <span>→</span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
